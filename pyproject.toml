@@ -1,0 +1,10 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.3.0",
+    "paramiko>=3.5.1",
+    "snowflake-connector-python[pandas]>=3.15.0",
+]
